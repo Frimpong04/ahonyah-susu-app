@@ -21,7 +21,7 @@
   }
 
   .inactive {
-    padding: 16px;
+    padding: 21px;
   }
   .auth_links a {
     background-color: #2D3142;
@@ -35,7 +35,7 @@
     margin-left: 32px;
     text-decoration: none;
     color: var(--accent); 
-    padding: 16px;
-    border-bottom: 8px solid #2D3142;
+    padding: 21px;
+    border-bottom: 4px solid #2D3142;
 
   }

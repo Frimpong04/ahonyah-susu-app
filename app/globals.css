@@ -11,7 +11,7 @@ body {
 }
 
 body {
-  color: var(--foreground);
+  color: var(--accent);
   background: var(--background-dominant);
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
