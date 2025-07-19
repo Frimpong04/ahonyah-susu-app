@@ -18,7 +18,7 @@ export default function HowItWorks() {
                 frequency,and payout order. Or accept an invitation <br/>
                 to join an existing group with our secure vetting system</p>
             </div>
-            <Image />
+            {/* <Image /> */}
 
         </section>
 
@@ -30,7 +30,7 @@ export default function HowItWorks() {
                     sending reminders and processing payments ecurely.<br/> 
                     No more chasing for funds</p>
             </div>
-            <Image/>
+            {/* <Image/> */}
         </section>
 
         <section>
@@ -41,7 +41,7 @@ export default function HowItWorks() {
                 ensuring everyone gets their turn on time
                 </p>
             </div>
-            <Image />
+            {/* <Image /> */}
         </section>
 
         <section>
@@ -52,7 +52,7 @@ export default function HowItWorks() {
                 for transparent dispute resolution. We empower you to lead<br/>
                 your group  with confidence</p>
             </div>
-            <Image />
+            {/* <Image /> */}
         </section>
     </main>
   )

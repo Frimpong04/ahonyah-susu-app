@@ -1,0 +1,64 @@
+.form_container {
+    width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid var(--accent);
+    border-radius: 8px;
+}
+
+.primary_form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form_title {
+    text-align: center;
+    color: var(--accent);
+    border-bottom: 1px solid var(--accent);
+}
+
+.form_title h2 {
+    margin-bottom: 8px;
+}
+
+.form_title p {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.primary_form label {
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0;
+}
+
+.primary_form label span {
+    margin-bottom: 4px;
+}
+.primary_form label input,
+.primary_form label select,
+.primary_form label textarea {
+    padding: 12px;
+    border-radius: 8px;
+    border:1px solid var(--accent);
+}
+.checkbox span,
+.checkbox input{
+    /* margin-left: 10px; */
+    font-size: 20px;
+}
+
+.checkbox span {
+    margin-left: 10px;
+}
+
+.btn_primary {
+    padding: 16px 32px;
+    background-color: var(--accent);
+    border-radius: 8px;
+    color: var(--background-dominant);
+    font-size: 18px;
+    border:2px solid var(--accent);
+}
+
