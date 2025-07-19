@@ -37,7 +37,7 @@ export default function NavBar() {
             </div>
             {/* links */}
             <div className={classes.auth_links}>
-                <Link href="/signup">Sign up</Link>
+                <Link href="/signup">Get Started Now</Link>
              </div>      
         </nav>
     </div>
