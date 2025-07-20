@@ -1,5 +1,11 @@
 import React from 'react'
 
+// icons
+import { IoLogoFacebook } from "react-icons/io5";
+import { BiLogoInstagramAlt } from "react-icons/bi";
+import { BsTwitterX } from "react-icons/bs";
+import { TbBrandLinkedinFilled } from "react-icons/tb";
+
 // components
 import PrimaryContactForm from '../components/PrimaryContactForm'
 
@@ -19,13 +25,25 @@ export default function Contact() {
        
         <section className={classes.contact_form_section}>
            <PrimaryContactForm />
+           <section className={classes.other_contact_options}>
+                <div className={`${classes.email_direct} ${classes.other_contact}`}>
+                    <p><a href="mailTo:executivekfb27@gmail.com">Send us an email </a></p>
+                </div>
+               <div className={`${classes.other_contact} ${classes.hotline}`}>
+                   
+                    <p>Call us: 020 739 1554</p>
+               </div>
+                
+            </section>
+            <section className={classes.social_media_links}>
+                <IoLogoFacebook />
+                <BiLogoInstagramAlt />
+                <BsTwitterX />
+                <TbBrandLinkedinFilled />
+            </section>
         </section>
 
-        {/* <section>
-            <h3>Other ways to connect</h3>
-            <p><a href="mailTo:">Send us an email </a></p>
-        </section> */}
-
+        
 
     </main>
   )
