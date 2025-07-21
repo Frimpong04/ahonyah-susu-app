@@ -36,7 +36,7 @@ export default function Feattures() {
                     Experience true financial convenience
                 </p>
             </div>
-            <Image />
+            {/* <Image /> */}
        </section>
 
        <section className={`${classes.card} ${classes.features_two}`}>
@@ -49,7 +49,7 @@ export default function Feattures() {
                 </p>
             </div>
 
-            <Image />
+            {/* <Image /> */}
        </section>
 
        <section className={`${classes.card} ${classes.features_two}`}>
@@ -62,7 +62,7 @@ export default function Feattures() {
 
                 </p>
             </div>
-            <Image />
+            {/* <Image /> */}
        </section>
 
        <section className={`${classes.card} ${classes.features_two}`}>
@@ -74,7 +74,7 @@ export default function Feattures() {
                     for fair and transparent resolution.
                 </p>
             </div>
-            <Image />
+            {/* <Image /> */}
        </section>
 
        <section className={`${classes.card} ${classes.features_two}`}>
@@ -88,7 +88,7 @@ export default function Feattures() {
                 </p>
             </div>
 
-            <Image/>
+            {/* <Image/> */}
        </section>
 
        <section className={classes.cta_section}>
