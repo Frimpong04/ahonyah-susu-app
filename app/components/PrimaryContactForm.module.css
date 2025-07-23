@@ -4,6 +4,7 @@
     padding: 40px;
     border: 1px solid var(--accent);
     border-radius: 8px;
+    background-color: #adacb5;
 }
 
 .primary_form {

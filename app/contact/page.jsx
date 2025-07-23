@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image';
 
 // icons
 import { IoLogoFacebook } from "react-icons/io5";
@@ -6,16 +7,25 @@ import { BiLogoInstagramAlt } from "react-icons/bi";
 import { BsTwitterX } from "react-icons/bs";
 import { TbBrandLinkedinFilled } from "react-icons/tb";
 
+import Ahonyah from "../../public/ahonyah-black-logo.png";
+
 // components
 import PrimaryContactForm from '../components/PrimaryContactForm'
 
 // styles
 import classes from "./page.module.css";
 
+
 export default function Contact() {
   return (
     <main className={classes.main_container}>
         <section className={classes.contact_heading}>
+            <Image 
+                src={Ahonyah}
+                alt="ahonyah logo"
+                quality={100}
+                width={300}
+            />
             <h1>Get In Touch With Ahonyah Susu</h1>
             <p>We are here to assist you. Whether you have a question<br/>
             need support, or want to provide feedback <br/>
