@@ -1,0 +1,78 @@
+
+
+.title {
+    text-align: center;
+    margin: 50px 0;
+    color: var(--accent);
+}
+
+.title h1 {
+  font-size: 60px;
+}
+
+.title h2 {
+    font-size: 45px;
+}
+
+.steps {
+    /* background-color: whitesmoke; */
+    /* border: 1px solid blue; */
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.steps_item {
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    gap: 100px;
+    justify-content: space-between;
+    margin-bottom: 0 auto;
+    /* border: 1px solid red; */
+    width: 1650px;
+    padding: 30px;
+    border-radius: 16px;
+}
+
+.span_container {
+    font-size: 25px;
+    padding: 20px;
+    color: whitesmoke;
+    border-radius: 100%;
+    background-color: var(--accent);
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 40px;
+    border: 6px solid #adacb5;
+}
+.steps_item_text h2 {
+    font-size: 50px;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--accent);
+    
+}
+
+.steps_item_text p {
+    font-size: 30px;
+    text-align: left;
+    margin-top: 16px;
+    color: var(--accent);
+    line-height: 1.4;
+    padding-right: 30px;
+}
+.steps img {
+    /* border:1px solid red; */
+    height: 550px;
+    width: auto;
+    border-radius: 16px;
+}
+
+.steps_item.step_two_item img,
+.steps_item.step_four_item img {
+  /* border: 1px solid red; */
+  order: -1;
+}
