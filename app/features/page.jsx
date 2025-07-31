@@ -5,14 +5,23 @@ import classes from "./page.module.css";
 import Image from 'next/image';
 import Link from 'next/link';
 
+// imges
+import Features_One from "../../public/images/features_image_one.jpg";
+import Features_Two from "../../public/images/features_image_two.jpg";
+import Features_Three from "../../public/images/features_image_three.jpg";
+import Features_Four from "../../public/images/features_image_four.jpg"
+import AhonyahLogo from "../../public/ahonyah-black-logo.png"
+
 export default function Feattures() {
   return (
     <div className={classes.main_container}>
         <section className={classes.hero_section}>
-            <h1>Unlock the full potential of your Susu with Ahonyah Susu</h1>
-            <h2>Discover powerful tools designed to make your group savings secure, transparent, and effortlessly managed</h2>
+            <Image src={AhonyahLogo} alt="ahonyah logo"/>
+            <h1>Unlock the full potential of your Susu <br/>with Ahonyah Susu</h1>
+            <h2>Discover powerful tools designed to make your group savings secure,<br/> transparent, and effortlessly managed</h2>
         </section>
-       
+        <div className={classes.separator}></div>
+       <div className={classes.sections_container}>
        <section className={`${classes.features_section} ${classes.feature_one}`}>
             <div className={classes.features_text}>
                 <h3>Smart Group Creation and Management</h3>
@@ -23,10 +32,10 @@ export default function Feattures() {
                     needs, ensuring a perfect fir for your traditional Susu model
                 </p>
             </div>
-            {/* <Image /> */}
+            <Image  src={Features_One} alt="futuristic illustration of a person with a phone"/>
        </section>
 
-       <section className={`${classes.card} ${classes.features_two}`}>
+       <section className={`${classes.features_section} ${classes.features_two}`}>
             <div className={classes.features_text}>
                 <h3>Automated Mobile Money Contribution and Payouts</h3>
                 <h4>Seamless transactions with Mobile Money Automations</h4>
@@ -36,10 +45,10 @@ export default function Feattures() {
                     Experience true financial convenience
                 </p>
             </div>
-            {/* <Image /> */}
+            <Image  src={Features_Two} alt="mobile contributions illustration"/>
        </section>
 
-       <section className={`${classes.card} ${classes.features_two}`}>
+       <section className={`${classes.features_section} ${classes.features_three}`}>
             <div className={classes.features_text}>
                 <h3>Robust  Member Vetting and Onboarding</h3>
                 <h4>Build a trusted Susu Community</h4>
@@ -49,10 +58,10 @@ export default function Feattures() {
                 </p>
             </div>
 
-            {/* <Image /> */}
+            <Image src={Features_Three} alt="illustration of community"/>
        </section>
 
-       <section className={`${classes.card} ${classes.features_two}`}>
+       <section className={`${classes.features_section} ${classes.features_four}`}>
             <div className={classes.features_text}>
                 <h3>Transparent Financial Tracking and Reporting</h3>
                 <h4>Real Time clarity for Every Transaction</h4>
@@ -62,10 +71,10 @@ export default function Feattures() {
 
                 </p>
             </div>
-            {/* <Image /> */}
+            <Image src={Features_Four} alt="illustrations of financial tracking"/>
        </section>
 
-       <section className={`${classes.card} ${classes.features_two}`}>
+       <section className={`${classes.features_section} ${classes.features_five}`}>
             <div className={classes.features_text}>
                 <h3>Empowered Dispute Resolution System</h3>
                 <h4>Resolve Issues with Confidence</h4>
@@ -74,10 +83,10 @@ export default function Feattures() {
                     for fair and transparent resolution.
                 </p>
             </div>
-            {/* <Image /> */}
+            <Image src={Features_One} alt=""/>
        </section>
 
-       <section className={`${classes.card} ${classes.features_two}`}>
+       <section className={`${classes.features_section} ${classes.features_six}`}>
             <div className={classes.features_text}>
                 <h3>Secure and Compliant Platform</h3>
                 <h4>Your Security Our Priority</h4>
@@ -88,7 +97,7 @@ export default function Feattures() {
                 </p>
             </div>
 
-            {/* <Image/> */}
+            <Image src={Features_Two} alt="" />
        </section>
 
        <section className={classes.cta_section}>
@@ -97,6 +106,8 @@ export default function Feattures() {
 
             <button><Link href="/signup">Create your Free Account</Link></button>
        </section>
+
+       </div>
     </div>
   )
 }

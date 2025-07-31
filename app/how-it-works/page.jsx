@@ -14,19 +14,19 @@ export default function HowItWorks() {
   return (
     <main className={styles.container}>
         <section className={styles.title}>
-            {/* <Image 
+            <Image 
              src={Ahonyah}
              alt="ahonyah logo"
              width={150}
              quality={100}
-            /> */}
+            />
 
             <div className={styles.title_text} >
                 <h1>Your Susu, Simplified:</h1>
                 <h2>How Ahonyah Works</h2>
             </div> 
         </section>
-        
+        <div className={styles.separator}></div>
 
         <section className={`${styles.steps} ${styles.step_one}`}>
             <div className={styles.steps_item}>

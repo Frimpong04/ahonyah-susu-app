@@ -7,13 +7,22 @@
 }
 
 .title h1 {
-  font-size: 60px;
+  font-size: 70px;
 }
 
 .title h2 {
     font-size: 45px;
+    /* border-bottom: 1px solid var(--accent); */
 }
 
+.separator {
+    height: 5px;
+    width: 200px;
+    /* border: 1px solid red; */
+    background-color: var(--accent);
+    margin: 0 auto;
+    border-radius: 50px;
+}
 .steps {
     /* background-color: whitesmoke; */
     /* border: 1px solid blue; */
